@@ -1,18 +1,3 @@
-  GNU nano 7.2                                  1-listit                                  Modified
-
-
-
-
-
-
-
-
-
-
-
-
 #!/bin/bash
-# This script lists the current directory contents in columns
-
 ls
 
