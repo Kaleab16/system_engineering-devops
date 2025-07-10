@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script lists the contents of the current directory, showing only what's after the first dash in filenames
+
+for file in *-*
+do
+  name="${file#*-}"
+  echo "$name"
+done
